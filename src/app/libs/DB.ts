@@ -40,6 +40,11 @@ export const DB = {
       studentId: "650610001",
       courseNo: "001101",
     },
+    {/*{
+      studentId: "650610001",
+      courseNo: "001101",
+    },
+    */},
     {
       studentId: "650610002",
       courseNo: "261207",

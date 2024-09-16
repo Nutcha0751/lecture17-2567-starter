@@ -2,7 +2,7 @@ import { z } from "zod";
 
 const zStudentId = z
   .string({ required_error: "Student Id must contain 9 characters" })
-  .length(9, { message: "Student Id must contain 9 characters" });
+  .length(9, { message: "Student Id must contain 9 characters" }); //ถ้าเกิด error
 const zFirstName = z
   .string({ required_error: "First name requires at least 3 charaters" })
   .min(3, { message: "First name requires at least 3 charaters" });
